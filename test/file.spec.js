@@ -5,3 +5,9 @@ describe('First Test', () => {
 		expect(2 + 2).to.equal(4);
 	});
 });
+
+describe('Second Test', () => {
+	it('should verify 3 + 3', () => {
+		expect(3+3).to.equal(6);
+	});
+});
